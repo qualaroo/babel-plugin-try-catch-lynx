@@ -1,6 +1,7 @@
 {
   "name": "babel-plugin-try-catch-lynx",
   "version": "0.0.1",
+  "private": true,
   "description": "Automatically wrap your all functions with try-catch blocks",
   "keywords": [
     "babel-plugin",
