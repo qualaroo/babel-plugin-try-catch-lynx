@@ -8,7 +8,7 @@ module.exports = (babel, opts) => {
         try {
           FUNC_BODY
         } catch (ERROR_VARIABLE) {
-          ${handlerFunc}(ERROR_VARIABLE, (FUNC_NAME + FUNC_LINE));
+          ${handlerFunc}(ERROR_VARIABLE, FUNC_NAME, FUNC_LINE);
         }
     }`);
 
