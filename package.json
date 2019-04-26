@@ -1,0 +1,13 @@
+{
+  "name": "babel-plugin-try-catch-lynx",
+  "version": "0.0.1",
+  "description": "Automatically wrap your all functions with try-catch blocks",
+  "keywords": [
+    "babel-plugin",
+    "try-catch"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

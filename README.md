@@ -1,0 +1,1 @@
+Plugin that automatically adds try-catch blocks to all functions
