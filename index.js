@@ -3,7 +3,7 @@ let t;
 module.exports = (babel, opts) => {
     t = babel.types;
 
-    const handlerFunc = require(`${__dirname}../../${opts.handler}`)();
+    const handlerFunc = require(`${__dirname}/../../${opts.handler}`)();
     const wrapCapture = babel.template(`{
         try {
           FUNC_BODY
